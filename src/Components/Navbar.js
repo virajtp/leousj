@@ -60,7 +60,7 @@ function Navbar() {
                 <Link to="/Projects" onClick={() => { handleActive('project') }} style={{ color: window.location.pathname === '/Projects' ? '#040640' : null }} >Projects</Link>
               </li>
               <li className='nav-item' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}  >
-                <Link to={window.location.pathname} onClick={() => { handleActive('blog') }} style={{ color: window.location.pathname === '/Blogs' || window.location.pathname === '/Anecdote' ? '#040640' : null }}>Publications<FiChevronDown /></Link>
+                <Link to="" onClick={() => {setDropdown(!dropdown)}} style={{ color: window.location.pathname === '/Blogs' || window.location.pathname === '/Anecdote' ? '#040640' : null }}>Publications<FiChevronDown /></Link>
                 {dropdown && <Dropdown />}
               </li>
               <li className='nav-item'>
