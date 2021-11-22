@@ -120,26 +120,85 @@ text-align: justify;
     font-size: 0.8em;
   }
   
+.content{
+  width: 100%;
+}
 
-
-.content {
+.contents {
   position:relative;
-  background-color: white;
-  margin-bottom: 30%;
-  max-width: 100%;
+  /* background-color: white; */
+  /* margin-bottom: 30%; */
+  min-width: 100%;
+  /* align-content: center;
   justify-content: center;
-  text-align: center;
+  text-align: center; */
   background-color: rgb(206, 218, 255) ;
   /* padding-bottom: 20px;
   padding-top: 20px; */
 }
 
-@media only screen and (max-width: 2100px){
+/* ------------------------------------------------------------------ */
+/* i. Footer
+/* ------------------------------------------------------------------ */
+
+.footer-is-primary{
+  position:relative;
+  width: 100%;
+  bottom: 0;
+  /* margin-top: 20px; */
+  background-color:#04396c;
+  justify-content: center;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding-top: 20px;
+  padding-bottom: 10px;
+  /* background-size: cover; */
+  /* padding: 10px; */
+  /* margin: 10px; */
+  /* padding-bottom: 5 px; */
+  /* margin-right: 10px; */
+  /* margin-right: 10px; */
+  
+}
+
+.social-container {
+  padding-bottom: 20px;
+}
+
+
+a.social {
+  opacity: 50%;
+  margin: 0 1rem;
+  transition: transform 250ms;
+  /* display: inline-block; */
+}
+
+a.social:hover {
+  /* transform: translateY(-2px); */
+  /* overflow:hidden; */
+  opacity: 130%;
+  transform: scale(1.5);
+}
+
+a.youtube {
+  color: #eb3223;
+}
+
+a.facebook {
+  color: #0655ff;
+}
+
+a.linkedin {
+  color: #0667b6;
+}
+
+a.instagram {
+  color: rgb(255, 159, 159);
+}
+
+/* @media only screen and (max-width: 2100px){
   .content{
     margin-bottom: 25%;
-  }
-  .footer-is-primary{
-    max-width: 99%;
   }
 }
 
@@ -147,40 +206,27 @@ text-align: justify;
   .content{
     margin-bottom: 40%;
   }
-  .footer-is-primary{
-    max-width: 99%;
-  }
 }
 
 @media only screen and (max-width: 1200px){
   .content{
     margin-bottom: 90%;
   }
-
-  .footer-is-primary{
-    max-width: 98%;
-  }
-}
-
-/* @media only screen and (max-width: 800px){
-  .content{
-    margin-bottom: 150%;
-  }
-}  */
+} */
 
 @media only screen and (max-width: 700px){
-  .content{
+  /* .content{
     margin-bottom: 90%;
-  }
+  } */
   
 .leftbar{
   width:200%;
   height: 100%;
 }
 
-.footer-is-primary{
+/* .footer-is-primary{
   max-width: 97%;
-}
+} */
 }
 
 @media only screen and (max-width: 480px){
@@ -464,68 +510,7 @@ text-align: center;
  
 
 
-/* ------------------------------------------------------------------ */
-/* i. Footer
-/* ------------------------------------------------------------------ */
 
-.footer-is-primary{
-
-  /* position: fixed; */
-  position:fixed;
-  width: 100%;
-  /* left: 5px; */
-  bottom:0;
-  /* right:0; */
-  margin-top: 40px;
-  background-color:#04396c;
-  justify-content: center;
-  text-align: center;
-  color: rgb(255, 255, 255);
-  padding-top: 20px;
-  padding-bottom: 10px;
-  /* background-size: cover; */
-  /* padding: 10px; */
-  /* margin: 10px; */
-  /* padding-bottom: 5 px; */
-  /* margin-right: 10px; */
-  /* margin-right: 10px; */
-  
-}
-
-.social-container {
-  padding-bottom: 20px;
-}
-
-
-a.social {
-  opacity: 50%;
-  margin: 0 1rem;
-  transition: transform 250ms;
-  /* display: inline-block; */
-}
-
-a.social:hover {
-  /* transform: translateY(-2px); */
-  /* overflow:hidden; */
-  opacity: 130%;
-  transform: scale(1.5);
-}
-
-a.youtube {
-  color: #eb3223;
-}
-
-a.facebook {
-  color: #0655ff;
-}
-
-a.linkedin {
-  color: #0667b6;
-}
-
-a.instagram {
-  color: rgb(255, 159, 159);
-}
 
 /* ------------------------------------------------------------------ */
 /* Create new log form */

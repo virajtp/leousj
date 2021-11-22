@@ -50,7 +50,7 @@ function App() {
     <Router>
       <div className="App">
       
-        <Footer />
+        
         {/* <LeftBar /> */}
         {/* <RightBar /> */}
         {/* <Navbar /> */}
@@ -59,15 +59,17 @@ function App() {
         <br/>
         <br/>
         <div className="content">
+        {/* <Footer /> */}
+        <div className="contents">
         {/* <hr style={{
                 color: '#000000',
                 backgroundColor: '#000000',
                 height: 0.5,
                 borderColor: '#000000'
             }} /> */}
-          <Grid container alignItems="stretch" spacing={0} style={{gridColumnStart:"2"}} >
+          <Grid container alignItems="stretch" spacing={1} >
             
-            <Grid item xs={24} sm={12} md={9}>
+            <Grid item xs={12} sm={12} md={9}>
               {/* <div><LeftBar /></div> */}
               {/* <div className="content"> */}
 
@@ -126,11 +128,12 @@ function App() {
               <div><LeftBar /></div>
             </Grid>
           </Grid>
+          </div>
         </div>
         {/* <Footer data={this.state.resumeData.main} /> */}
         <Line/>
         <Navbar />
-        
+        <Footer />
       </div>
     </Router>
   );
