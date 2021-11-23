@@ -27,27 +27,27 @@ function Anecdote(props) {
       <h1>Monthly News Letter</h1>
       <br/>
       <br/>
-    <HTMLFlipBook width={450} height={window.innerHeight*0.8}>
-      <div className="demoPage"><img src={pge0} height="90%" /></div>
-      <div className="demoPage"><img src={pge1} height="90%" /></div>
-      <div className="demoPage"><img src={pge2} height="90%"/></div>
-      <div className="demoPage"><img src={pge3} height="90%"/></div>
-      <div className="demoPage"><img src={pge4} height="90%"/></div>
-      <div className="demoPage"><img src={pge5} height="90%"/></div>
-      <div className="demoPage"><img src={pge6} height="90%"/></div>
-      <div className="demoPage"><img src={pge7} height="90%" /></div>
-      <div className="demoPage"><img src={pge8} height="90%"/></div>
-      <div className="demoPage"><img src={pge9} height="90%"/></div>
-      <div className="demoPage"><img src={pge10} height="90%"/></div>
-      <div className="demoPage"><img src={pge11} height="90%"/></div>
-      <div className="demoPage"><img src={pge12} height="90%"/></div>
-      <div className="demoPage"><img src={pge13} height="90%"/></div>
-      <div className="demoPage"><img src={pge14} height="90%"/></div>
-      <div className="demoPage"><img src={pge15} height="90%"/></div>
-      <div className="demoPage"><img src={pge16} height="90%"/></div>
-      <div className="demoPage"><img src={pge17} height="90%"/></div>
-      <div className="demoPage"><img src={pge18} height="90%"/></div>
-      <div className="demoPage"><img src={pge19} height="90%"/></div>
+    <HTMLFlipBook width={450} height={window.innerHeight*0.7}>
+      <div className="demoPage"><img src={pge0} height="100%" /></div>
+      <div className="demoPage"><img src={pge1} height="100%" /></div>
+      <div className="demoPage"><img src={pge2} height="100%"/></div>
+      <div className="demoPage"><img src={pge3} height="100%"/></div>
+      <div className="demoPage"><img src={pge4} height="100%"/></div>
+      <div className="demoPage"><img src={pge5} height="100%"/></div>
+      <div className="demoPage"><img src={pge6} height="100%"/></div>
+      <div className="demoPage"><img src={pge7} height="100%" /></div>
+      <div className="demoPage"><img src={pge8} height="100%"/></div>
+      <div className="demoPage"><img src={pge9} height="100%"/></div>
+      <div className="demoPage"><img src={pge10} height="100%"/></div>
+      <div className="demoPage"><img src={pge11} height="100%"/></div>
+      <div className="demoPage"><img src={pge12} height="100%"/></div>
+      <div className="demoPage"><img src={pge13} height="100%"/></div>
+      <div className="demoPage"><img src={pge14} height="100%"/></div>
+      <div className="demoPage"><img src={pge15} height="100%"/></div>
+      <div className="demoPage"><img src={pge16} height="100%"/></div>
+      <div className="demoPage"><img src={pge17} height="100%"/></div>
+      <div className="demoPage"><img src={pge18} height="100%"/></div>
+      <div className="demoPage"><img src={pge19} height="100%"/></div>
     </HTMLFlipBook>
     </div>
   );
