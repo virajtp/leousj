@@ -27,7 +27,7 @@ function Anecdote(props) {
       <h1>Monthly News Letter</h1>
       <br/>
       <br/>
-    <HTMLFlipBook width={510} height={window.innerHeight*0.8}>
+    <HTMLFlipBook width={450} height={window.innerHeight*0.8}>
       <div className="demoPage"><img src={pge0} height="90%" /></div>
       <div className="demoPage"><img src={pge1} height="90%" /></div>
       <div className="demoPage"><img src={pge2} height="90%"/></div>
